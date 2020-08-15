@@ -13,7 +13,7 @@ backend = provider.get_backend('ibmq_essex')
 
 
 def run_idt_cnot( cnotQubits, _run, totalnQubits):
-    '''Executes idle tomography experiments on an IBM device.
+    """Executes idle tomography experiments on an IBM device.
     args:
         cnotQubits: Qubit pair as a list On which repeated CNOT drive
                     will be applied.
@@ -21,7 +21,7 @@ def run_idt_cnot( cnotQubits, _run, totalnQubits):
                    multiple runs.
         totalnQubits:   Total number of qubits in the quantum computer.
                         For `ibmq_essex` it is 5. 
-    '''
+    """
 
     # Creating necessary directories to save results
     print("#### Run -- ", _run, " ####")
