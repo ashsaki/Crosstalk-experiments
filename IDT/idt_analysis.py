@@ -3,7 +3,7 @@ from pygsti.extras import idletomography as idt
 import ast
 
 def analysis(readFile, writeFile, dirName, nQubits):
-    """"""This file reads experimental data from IBM.
+    """This file reads experimental data from IBM.
     Prepares pyGSTi compatible dataset and analyze the dataset to extract error-rates.
     Args:
       readFile: experiment data file name as counts from IBM device
