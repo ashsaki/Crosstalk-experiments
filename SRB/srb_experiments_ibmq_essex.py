@@ -11,7 +11,7 @@ shots = 1024
 #Number of seeds (random sequences)
 nseeds = 50
 #Number of Cliffords in the sequence (start, stop, steps)
-nCliffs = np.arange(1,101,2)
+nCliffs = np.arange(1,150,2)
 
 qbits_pair_1 = [0,1]
 qbits_pair_2 = [3,4]
